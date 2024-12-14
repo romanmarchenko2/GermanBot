@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    restart: always
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - SPREADSHEET_ID=${SPREADSHEET_ID}
+    volumes:
+      - ./logs:/app/logs

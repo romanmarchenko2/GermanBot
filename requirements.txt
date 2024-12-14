@@ -1,0 +1,7 @@
+python-telegram-bot
+gspread
+google-auth
+APScheduler
+pytz
+tenacity
+nest_asyncio
